@@ -1,0 +1,118 @@
+﻿body { /* стиль тега body */ 
+	background-color: silver; /* фоновый цвет - серый */ /*  */
+}
+table.menu {/* стиль таблицы "меню" */
+	margin: auto; /* Устанавливает величину отступа от каждого края таблицы */
+    border-collapse: collapse; /* одинарные границы между ячейками */
+}
+table.menu a /* стиль тега а таблицы "меню": ссылки */
+{
+	font-family: Arial;/* шрифт */
+	font-size: 22pt; /* размер шрифта */
+	color: edd3b2; /* цвет текста */
+	text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+table.menu td /* стиль ячейки таблицы "меню" */
+{
+	text-align: center; /* текст по центру */
+	background-color: 333333; /* цвет фона ячейки */
+	padding: 3px 40px; /* поля внутри ячейки: 3 пикселя от верхнего и нижнего края до текста, 11 пикселей от левого и правого */
+}
+
+/* Активнной ссылкой считается та, страница которой открыта на данный момент
+(Т.е. если пользователь зайдёт например на страницу "Товары", ссылка "Товары" должна иметь другой фон и цвет текста: */
+table.menu td.active /* стиль ячейки с активной ссылкой таблицы меню */
+{
+	background-color: fecb00; /* меняется цвет фона */
+}
+table.menu td.active a /* стиль активной ссылка */
+{
+	color: black; /* меняется цвет текста ссылки */
+}
+table.menu th /* стиль заголовка таблицы "меню" (ссылка на главную страницу - Брокс-континенталь) */
+{
+	background-color: 333333; /* цвет фона */
+}
+table.menu th a /* стиль ссылки на главную */
+{
+	font-size: 36pt; /* размер шрифта */
+	color: white; /* цвет - белый */
+}
+
+table.catalog /* стиль таблицы "каталог": всё точно также, только другие параметры */
+{
+	border-collapse: collapse; 
+	font-family: Arial;
+	font-size: 12pt;
+}
+table.catalog th
+{
+	background-color: ffcc00;
+	padding: 8px 25px 8px 25px;
+	color: white;
+}
+table.catalog td
+{
+	background-color: white;
+	padding: 3px 25px 15px 11px;
+}
+table.catalog td.active
+{
+	background-color: eeeeee;
+	color:blue;
+	padding: 3px 25px 15px 11px;
+}
+table.catalog a
+{
+	color:blue;
+	text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+table.site
+{
+	width: 100%;
+}
+table.site td.catalog
+{
+	vertical-align: top;
+	width:19%;
+}
+table.site td.prod table td
+{
+	text-align:center;
+	padding: 10px;
+}
+table.site td.prod img
+{
+	width:320px;
+	height:240px;
+}
+img.photo
+{
+	width:80%;
+	margin-bottom: 5%;
+}
+h1
+{
+	text-align: center;
+}
+img.specialists
+{
+	width:40%;
+	margin-bottom: 5%;
+	margin-left:10%;
+}
+img.services
+{
+	width:50%;
+	margin-top:3%;
+}
+ul li
+{
+	font-size:130%;
+	margin-top:3%;
+}
+table.site td.contact table td
+{
+	text-align: left;
+	padding: 10px;
+}
